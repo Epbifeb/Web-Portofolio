@@ -1,0 +1,118 @@
+
+/* Welcome Page */
+body
+{
+
+    position: absolute;
+    width: 1670px;
+    height: 980px;
+    
+    background: #FFFFFF;
+}
+.GoButton {
+
+    background: #C5FFBB;
+    box-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+a{
+    position: absolute;
+    width: 100px;
+    height: 42px;
+    left: 1023px;
+    top: 620px;
+    font-family: Bray Notes;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 45px;
+
+    display: unset;
+    align-items: unset;
+    text-align: center;
+    letter-spacing: 0.12em;
+    cursor: pointer;
+    --animate-duration: 7s;
+
+color: #000000;
+}
+.animate__animated.animate__bounceInUp{
+    --animate-duration: 3s;
+  }
+  .rss {
+	color: #FFFFFF;
+    background-color: #a9ffd7;
+    box-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+}
+.rss:before {
+	color: #FFFFFF;
+}
+.rss:hover {
+	background-color: #4afda9;
+}
+.rss:hover:before {
+	font-size: 120%;
+}
+
+a:-webkit-any-link {
+    color: unset;
+    cursor: pointer;
+    text-decoration: none;
+    
+
+}
+
+/* Want To See My Portofolio? */
+h1
+{
+    --animate-duration: 2s;
+    
+    position: absolute;
+    width: 416px;
+    height: 150px;
+    left: 910px;
+    top: 340px;
+    
+    font-family: Bray Notes;
+    src: url(https://www.dafont.com/bray-notes.font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.12em;
+    
+    color: #000000;
+
+}
+.animate__animated.animate__fadeIn {
+    --animate-duration: 7s;
+  }
+h2
+{
+    position: absolute;
+    width: 511px;
+    height: 86px;
+    left: 830px;
+    top: 447px;
+    
+    font-family: Bray Notes;
+    src: url(https://www.dafont.com/bray-notes.font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.20em;
+    
+    color: #000000;
+
+}
+
+
